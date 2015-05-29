@@ -1,0 +1,30 @@
+---
+abstract: 'a tool to scan your Perl code for its prerequisites'
+author:
+  - 'Kenichi Ishigaki <ishigaki@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+  Test::More: '0.98'
+  Test::UseAllModules: '0.10'
+configure_requires:
+  ExtUtils::MakeMaker::CPANfile: '0.06'
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.143240'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Perl-PrereqScanner-NotQuiteLite
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  CPAN::Meta::Prereqs: '2.113640'
+  CPAN::Meta::Requirements: '2.113640'
+  Compiler::Lexer: '0.22'
+  Exporter: '5.57'
+  Module::Find: '0'
+resources:
+  repository: git://github.com/charsbar/Perl-PrereqScanner-NotQuiteLite
+version: '0.01'
